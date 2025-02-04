@@ -1,0 +1,37 @@
+node_modules/
+
+venv/
+*.egg-info/
+
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+.DS_Store
+
+Thumbs.db
+
+# Ignore log files
+*.log
+
+*.csv
+*.tsv
+*.json
+*.xml
+
+*.bak
+*.swp
+
+*.pyc
+*.pyo
+*.class
+*.o
+
+coverage/
+*.coveragerc
+
+*.tar.gz
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
