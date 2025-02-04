@@ -30,7 +30,7 @@ This collection includes:
 
 To facilitate easier access to and querying of the collection, we have designed a special **Streamlit tool**. This tool allows you to view and interact with the TEI-encoded texts directly through an intuitive web interface. You can search, filter, and navigate the texts to explore specific sections or themes.
 
-To access the Streamlit tool, click on the following link: **[DigitalSEE: TEI Navigator]()**
+To access the Streamlit tool, click on the following link: **[DigitalSEE: TEI Navigator](https://github.com/Bestroi150/digitalsee-tei-navigator)**
 
 
 ## Files in This Repository
