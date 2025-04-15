@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title xml:lang="en">Statue base of Publius Virdius Iulianus, set up by the Cendriseis tribe</title>
+          <author>
+            <persName>Dimitar Iliev</persName>
+          </author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>DigitalSEE</publisher>
+          <date>2025-04-15</date>
+          <availability>
+            <p>The copyright statement for the source text can be fooud at <ref>Telamon (2025). Statue base of Publius Virdius Iulianus, set up by the Cendriseis tribe. Retrieved 20.03.2025 from https://telamon.uni-sofia.bg/en/epi/view_ins/Tlmn3_0001</ref> IIIF can be found here: None, if available</p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>Bulgaria</country>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <p>
+                      <seg/>
+                    </p>
+                  </support>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin> 
+                <origPlace>
+                  <seg/>
+                </origPlace>
+                <origDate cert="high">214-218 AD</origDate>
+              </origin>
+              <!--Observed-->
+              <provenance type="observed" subtype="pleiades">
+                <date evidence="None">None</date>
+                <ref cert="high">None</ref>
+                <placeName>None</placeName>
+            </provenance>
+            <provenance type="observed" subtype="geonames">
+                <ref>None</ref>
+            </provenance>
+              <!--Found-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+              <!--Current-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+          </history>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <classDecl>
+          <taxonomy>
+            <category xml:id="periods-contemporary">
+              <catDesc>
+               roman_age
+              </catDesc>
+            </category>
+            <category xml:id="periods-source">
+              <catDesc>
+                roman_age
+              </catDesc>
+            </category>
+            <category xml:id="object-type">
+              <catDesc>
+                {'inscriptions': ['honorary_inscription']}
+              </catDesc>
+            </category>
+           </taxonomy>
+        </classDecl>
+      </encodingDesc>
+      <profileDesc>
+        <textClass>
+        <keywords>
+          <list>
+            <item>statue, base, Publius Viridius Iulianus, Cendriseis, Philippopolis, Plovdiv, theatre</item>
+          </list>
+        </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+        <change when="2025-03-12" who="Dimitar Iliev">encoder Dimitar Iliev</change>
+        <change when="2025-04-15" who="KS">Kristiyan Simeonov, encoded XML data</change>
+        <change when="2025-04-15" who="DI">Dimitar Iliev, provided full schema revision</change>
+      </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="textpart" xml:lang="grc"> <ab></ab></div> 
+        <div type="edition" xml:lang="grc">
+         <p>
+            <seg xml:lang="grc">[..].[---]
+ων ((·))Πό((·))(πλιον) Οὐίρ[διον]
+Ἰουλιανὸν πα[τέ]-
+ρα δύο χε[ι]λιάρχων
+5καὶ αὐτὸν ἀπὸ στρα-
+τείας (vac.) φυλὴ Κεν-
+δρεισηϊς, (vac.) ἐκδικοῦν-
+τος (vac.) Αὐρ(ηλίου) ((·)) Ῥηβουκένθου,
+ἐπιμελουμένου ((·)) Αὐρ(ηλίου) ((·)) Ἀπολ-
+10λωνίδου Αἰλ(ίου) ((·)) Οὐάλεντος.
+Εὐτυχῶς.</seg>
+          </p>
+        </div>
+        <div type="commentary" subtype="general">
+         <ab> The text is written between <date type="initial">None</date> and <date type="final">None</date>.
+           The name of the monument is <name type="source">Statue base of Publius Virdius Iulianus, set up by the Cendriseis tribe</name> or <name type="contemporary">Statue base of Publius Virdius Iulianus, set up by the Cendriseis tribe</name>. According to the text, it is It is located <location>
+            <geo>42.14738860957376; 24.75112470558036</geo> <geo>https://www.geonames.org/6459163</geo>
+         </location>.Now it is located here: <location type="original"><geo>24.75112470558036;42.14738860957376</geo> <geo>https://www.geonames.org/6459163</geo></location>, in <name type="current" xml:lang="eng">Plovdiv, In the ancient theatre, fixed on the orchestra in front of the western door of the stage building.</name>.
+         The internal date in the document is <date>214-218 AD</date>.
+        We have evidence that the object was obseved in <location type="subsequent1"><geo>None; None</geo> </location>.
+        The object has been seen in <location type="subsequent2"><geo>None; None</geo> </location>  </ab>
+        </div>
+         <div type="commentary" subtype="additional">
+            <p>
+              <seg>None</seg>
+            </p>
+          </div>
+          <div type="bibliography">
+            <bibl>
+                <author>
+                  <persName>Nicolay Sharankov</persName>
+                </author>
+                <seg>https://telamon.uni-sofia.bg/bg/epi/view_ins/Tlmn3_0001</seg>
+          <ref target="None">None</ref>
+            </bibl>
+          </div>
+      </body>
+    </text>
+</TEI>
+    

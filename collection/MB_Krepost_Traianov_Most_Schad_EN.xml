@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title xml:lang="en">Une heure au dessous de Gladova sur le rivage de la Valachie se voient les masures d’un vieux chateau</title>
+          <author>
+            <persName>Maria Baramova</persName>
+          </author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>DigitalSEE</publisher>
+          <date>2025-04-15</date>
+          <availability>
+            <p>The copyright statement for the source text can be fooud at <ref>Sammlung von Handschriften und alten Drucken, Österreichische Nationalbibliothek http://data.onb.ac.at/rec/AC13955779</ref> IIIF can be found here: None, if available</p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>Bulgaria</country>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <p>
+                      <seg/>
+                    </p>
+                  </support>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin> 
+                <origPlace>
+                  <seg/>
+                </origPlace>
+                <origDate cert="low">26.04.1740</origDate>
+              </origin>
+              <!--Observed-->
+              <provenance type="observed" subtype="pleiades">
+                <date evidence="None">None</date>
+                <ref cert="high">None</ref>
+                <placeName>None</placeName>
+            </provenance>
+            <provenance type="observed" subtype="geonames">
+                <ref>None</ref>
+            </provenance>
+              <!--Found-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+              <!--Current-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+          </history>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <classDecl>
+          <taxonomy>
+            <category xml:id="periods-contemporary">
+              <catDesc>
+               middle_ages
+              </catDesc>
+            </category>
+            <category xml:id="periods-source">
+              <catDesc>
+                roman_age
+              </catDesc>
+            </category>
+            <category xml:id="object-type">
+              <catDesc>
+                {'fortifications': ['fortress']}
+              </catDesc>
+            </category>
+           </taxonomy>
+        </classDecl>
+      </encodingDesc>
+      <profileDesc>
+        <textClass>
+        <keywords>
+          <list>
+            <item>Fortress, ruins, Trajan's bridge, Severin, Castra Drobeta</item>
+          </list>
+        </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+        <change when="2025-03-12" who="Maria Baramova">encoder Maria Baramova</change>
+        <change when="2025-04-15" who="KS">Kristiyan Simeonov, encoded XML data</change>
+        <change when="2025-04-15" who="DI">Dimitar Iliev, provided full schema revision</change>
+      </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="textpart" xml:lang="fre"> <ab></ab></div>
+        <div type="edition" xml:lang="fre">
+         <p>
+            <seg xml:lang="fre">Fol. 14r-v
+
+Comme il n’etoit pas encore tard à notre arrivé, je me suis d’abord fait passer dans la Valachie en bateau pour aller voir et dessiner les restes venerables du fameux pont de Trajan, que cet Empereur, après avoir subjugué les Daces, y a fait construire pour avoir une communication aisée avec les Colonies Romaines établies en ce païs, et nouvellement conquis par les autres Provinces de l’Ulyrie soumise depuis longtems a l’empire. Une heure au dessous de Gladova sur le rivage de la Valachie se voient les masures d’un vieux chateau, que l’on pourroit dire y avoir été bati, comme un fort, propre à garder ce pont si les barbares elissent eû l'intention de le passer, pour ravager les Provinces Romaines de l'autre côté ou pour détruire le pont même. Toutefois je ne deciderai pas là dessus, puisque premierement la maçonnerie ne donne pas clairement a connoitre si c’est un batiment du tems des Romains, ou d’un siécle plus proche au nôtre et qu’aussi bien ce fort me paroitroit trop eloigné du pont, qui est encore à un bon quart d’heure plus bas, par consequent hors de la portée d’une fleche, qui etoit pourtant l’ unique arme en ce tems, dont on se pouvoit servir à défendre des Forts
+Soit comme il voudra, il a tout l’air d’un Fort, dont même des souterrai avançoient au delà de son fossé. J'ai manqué de tomber dans une de ces cave en y allant, qui paroissoit fort profonde, et dont l’ouverture dans la voute ruinée etoit cachée sous l’herbe et des broupailles. Comme le Danube par son debordement êtoit entré bien avant dans la terre ferme par une ravine un des deux Janissaires qui m'accompagnoient, a eu afsez de bonté, que de faire passer mon Valet et moi sur sondos . J’ai encore eu toutes les peines du monde à grimper sur la hauteur toute couver, qui était toute couverte de buissons touffus, où ce Fort est situé, et cette même hauteur a été élevée de la terre tircé d’un forse trés large et trés profond, qui  regne autour. Sa figure est quarrée, et pas plus grande, qu’ on en feroit une bonne Redoute à présent. Le pan dé  muraille, qui est entore sur pied, semble avoir éte une tour  à plusieurs étages voûtés, dont la maçonnerie est encore entiére, le reste n’est plus connoissable. A’ un quart d'heure au delà est donc le premier pillier, ou le commencement du pont, et on en voit encore plusieurs autres de suite, quand  l'eau du Danube ne les cache pas comme alors. Je n'en ai pú decouvrir aucun autre, que le dernier sur le rivage opposé de Servie, qui est tout à  fait hors de l’eau. J'ai dessiné ces ruines telles  quon les voioit, en hâte et avec beaucoup de peine, causée en partie de la chaleur du soleil, des mouches, et l'impatience d'un Janissaire, qui crioit à tout 
+moment, que je m’en retournasse. Je dois dire encore, quela maçonnerie du château aussibien que des piliers est de moilon et nullement de brique, comme je me souviens de l'avoir lu dans une certaine relation. Une bonne demieheure au dessous dans  la Valachie, est  Chernez, endroit bien peuplé, de la grandeur de Gladova, mais un peu eloigné du rivage, le pont estt ainsi au milieu de ces deux villages. Traian a voulu conserver la memoire de son expédition contre les Daces et de sa célèbre traversée du  et sur tout le fameux passage du Danube sur cet admirable Pont de pierre Outre une medaille assez commune, où le fleuve Danube est représenté et marqué Danuvius, l'inscription du Pont en est encore un monument, qui confirme les louanges, que  les historiens ont donné à cet Empereur, d’avoir été le premier ou le seul, comme dit Aurelius Victor, qui ait étendu le limites de l’Empire Romain au delà du Danube, et reduit  la Dace en Province. Dion dit, que ce Pont portoit sur vingt piliers, dont chacun, sans les fondemens, avoit 150. pieds de hauteur, et 60. de largeur. L'empereur Adrien  l'a fait demolir pour empcher les Daces toujours indomtables d’indester la Mysie.
+
+L'inscription porte:
+
+PROVIDENTIA. AVGVSTI VERE PONTIFICIS. VIRTVS ROMANA QVID NON
+DOMVIT. SVB IVGVM ECCE ET RAPITVR DANVBIVS.
+
+
+
+</seg>
+          </p>
+        </div>
+        <div type="commentary" subtype="general">
+         <ab> The text is written between <date type="initial">13th century </date> and <date type="final">16th century</date>.
+           The name of the monument is <name type="source">Une heure au dessous de Gladova sur le rivage de la Valachie se voient les masures d’un vieux chateau</name> or <name type="contemporary">Severin Fortress, Ruinele Cetății Medievale </name>. According to the text, it is It is located <location>
+            <geo>44.6231310; 22.6564108</geo> <geo>https://www.geonames.org/678817/drobeta-turnu-severin.html</geo>
+         </location>.Now it is located here: <location type="original"><geo>None;None</geo> <geo>None</geo></location>, in <name type="current" xml:lang="None">None</name>.
+         The internal date in the document is <date>26.04.1740</date>.
+        We have evidence that the object was obseved in <location type="subsequent1"><geo>None; None</geo> </location>.
+        The object has been seen in <location type="subsequent2"><geo>None; None</geo> </location>  </ab>
+        </div>
+         <div type="commentary" subtype="additional">
+            <p>
+              <seg>In 1740-1741, Captain Schad was part of the Grand Embassy of Corfitz Anton Count von Ullfeldt. He describes an old, dilapidated fortress located “an hour’s journey” beyond Kladovo on the Wallachian bank. These ruins are believed to be remnants of a Roman fortification intended to guard Emperor Trajan’s bridge. However, Captain Schad is hesitant to accept this explanation, noting that the fortress is situated about a quarter of an hour away from the bridge, which seems too far. He also points out the construction style of the structure, but he cannot determine from the masonry whether the ruins are Roman or from a later period.
+
+As he descends Wallachia, Schad appears to identify the ruins of the medieval fortress of Severin, mistakenly confusing it with the remains of the ancient fortification of Castra Drobeta, which is located nearby and indeed served to guard Trajan’s Bridge. (For more information, see: https://pleiades.stoa.org/places/573484325)</seg>
+            </p>
+          </div>
+          <div type="bibliography">
+            <bibl>
+                <author>
+                  <persName>Schad, ... Le capitaine</persName>
+                </author>
+                <seg>Récit et Observations de Mons Schad, Capitaine dans Geisruck sur le Voyage qu'il a fait au Levant à la Suite de l'Ambassade impériale a. 1740, Cod. 8606 HAN MAG</seg>
+          <ref target="None">None</ref>
+            </bibl>
+          </div>
+      </body>
+    </text>
+</TEI>
+    

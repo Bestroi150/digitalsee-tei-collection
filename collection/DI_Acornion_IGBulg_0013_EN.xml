@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title xml:lang="en">Honorary decree for Akornion</title>
+          <author>
+            <persName>Dimitar Iliev</persName>
+          </author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>DigitalSEE</publisher>
+          <date>2025-04-15</date>
+          <availability>
+            <p>The copyright statement for the source text can be fooud at <ref>Telamon (2025). Retrieved on 24.03.2025 from: https://telamon.uni-sofia.bg/bg/epi/view_ins/IGBulg_0013</ref> IIIF can be found here: None, if available</p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>Bulgaria</country>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <p>
+                      <seg/>
+                    </p>
+                  </support>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin> <!-- произход не според текста -->
+                <origPlace>
+                  <seg/>
+                </origPlace>
+                <origDate cert="high">48-44 BC</origDate>
+              </origin>
+              <!--Observed-->
+              <provenance type="observed" subtype="pleiades">
+                <date evidence="None">None</date>
+                <ref cert="high">None</ref>
+                <placeName>None</placeName>
+            </provenance>
+            <provenance type="observed" subtype="geonames">
+                <ref>None</ref>
+            </provenance>
+              <!--Found-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+              <!--Current-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+          </history>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <classDecl>
+          <taxonomy>
+            <category xml:id="periods-contemporary">
+              <catDesc>
+               roman_age
+              </catDesc>
+            </category>
+            <category xml:id="periods-source">
+              <catDesc>
+                roman_age
+              </catDesc>
+            </category>
+            <category xml:id="object-type">
+              <catDesc>
+                {'inscriptions': ['honorary_inscription']}
+              </catDesc>
+            </category>
+           </taxonomy>
+        </classDecl>
+      </encodingDesc>
+      <profileDesc>
+        <textClass>
+        <keywords>
+          <list>
+            <item>decree, magistrate, Dionysopolis, Akornion</item>
+          </list>
+        </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+        <change when="2025-03-12" who="Dimitar Iliev">encoder Dimitar Iliev</change>
+        <change when="2025-04-15" who="KS">Kristiyan Simeonov, encoded XML data</change>
+        <change when="2025-04-15" who="DI">Dimitar Iliev, provided full schema revision</change>
+      </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="textpart" xml:lang="grc"> <ab></ab></div> <!-- xml:lang тук е за оригиналния език -->
+        <div type="edition" xml:lang="grc">
+         <p>
+            <seg xml:lang="grc">[---]αι παρα[---]
+[---]τον ἀνέλαβεν [---]
+[---πρ?]ὸς Θεόδωρον καὶ Ἐπι.[---]
+[--- ἔδω?]καν τοῖς ἰδίοις δαπανήμασιν [---]
+5[---]ματων συναποδημῶν ἀπή[ρ]ατο [---]
+[---εἰ]ς Αργεδαβον πρὸς τὸν πατέρα α[ὐτοῦ?]
+[--- παραγε?]νόμενος δὲ καὶ συντυχὼν ἅμα [---]
+[---]ν τὴν ἀπ’ αὐτοῦ κατεκτήσατο τῇ π[όλει?]
+[--- ἀπέ]λυσεν τὸν δῆμον, ἱερεύς τε γενόμεν[ος]
+10[θεοῦ μεγάλου Δερζ?]αλου τάς τε πομπὰς καὶ τὰς θυσίας [ἐ]-
+[πετέλεσε λαμπ]ρῶς καὶ τοῖς πολίταις μετέδωκεν τ[ῶν]
+[κρεῶν], τῷ τε [Σερ]άπει λαχὼν ἱερεὺς ὁμοίως τοῖς δαπ[ανή]-
+[μασιν ἀνεστράφ?]η καλῶς καὶ φιλαγάθως, τοῦ τε ἐπωνύ[μου]
+[τῆς πόλεως Διον]ύσου οὐκ ἔχοντος ἱερῆ ἀφ’ ἑτῶν πληόν[ων] !
+15[παρακληθεὶς ὑ]πὸ τῶν πολιτῶν ἐπέδωκεν ἑαυτὸν κα[ὶ κα]-
+[τὰ τὴν Γαίου] Ἀντωνίου παραχειμασίαν ἀναλαβὼ[ν]
+[τὸν στέφανο]ν τοῦ θεοῦ τάς τε πομπὰς καὶ θυσίας ἐ[πε]-
+[τέλεσε καλ]ῶς καὶ μεγαλομερῶς καὶ τοῖς πολίταις μ[ε]-
+[τέδωκε κρε]ῶν ἀφθόνως, θεῶν τε τ[ῶ]ν ἐν Σαμοθρᾴκ[ῃ]
+20[τὸν στέφα]νον ἀνειληφὼς διὰ βίου τάς τε πομπὰς κ[αὶ]
+[τὰς θυσία]ς ἐπιτελεῖ ὑπέρ τε τῶν μυστῶν καὶ τῆς π[ό]-
+[λεως, νεωστ]εί τε τοῦ βασιλέως Βυρεβιστα πρώτου καὶ ὑ-
+[ψίστου γε]γονότος τῶν ἐπὶ Θρᾴκης βασιλέων καὶ πᾶσα[ν]
+[τὴν πέρ]αν τοῦ ποταμοῦ καὶ τὴν ἐπὶ τάδε κατεισχη-
+25[κότος γ]ενόμενος καὶ πρὸς τοῦτον ἐν τῇ πρώτῃ καὶ με-
+[γίστῃ φ]ιλίᾳ τὰ βέλτιστα κατεργάζεται τῇ πατρίδι λέ-
+[γων κα]ὶ συνβουλεύων ! τὰ κράτιστα καὶ τὴν εὔνοιαν τοῦ β[α]-
+[σιλέ]ως πρὸς τὴν τῆς πόλεως σωτηρ[ί]αν προσπαραμ[υ]-
+[θού]μενος ἔν τε τοῖς λοιποῖς ἅπασιν ἀφειδῶς ἑαυτὸν
+30[ἐν]διδοὺς εἰς τὰς τῆς πόλεως πρεσβήας ! καὶ κινδύνους ἐπ[ι]-
+δεχόμενος [ἀ]όκνως πρὸς τὸ πάντως τι κατεργάζεσθα[ι]
+τῇ πατρίδι συμφέρον, πρός τε Γναῖον Πομπήϊον Γναίου υ[ἱ]-
+ὸν αὐτοκράτορα Ῥωμαῖον ἀποσταλεὶς ὑπὸ βασιλέως Βυραβε[ι]-
+[σ]τα πρεσβευτὴς καὶ συντυχὼν αὐτῷ τῆς Μακεδονίας ἐν το[ῖς]
+35περ[ὶ Ἡρ]άκληαν ! τὴν ἐπὶ τοῦ Λύκου οὐ μόνον τοὺς ὑπὲρ τοῦ βα[σι]-
+λέως χρηματισμοὺς διέθετο τὴν εὔνο[ι]αν τὴν Ῥωμαίων προ-
+αγόμενος τῷ βασιλεῖ, ἀλλὰ καὶ περὶ τῆς πατρίδος τοὺς καλλίστου[ς]
+διέθετο χρηματισμούς, καθόλου δὲ κατὰ πᾶσ⸢α⸣ν περίστασιν κα[ι]-
+[ρ]ῶν ψυχῇ καὶ σώματι παραβαλλόμενος καὶ δαπάναις χρώμ[ε]-
+40νος ταῖς ἐκ τοῦ βίου, τινὰ δὲ καὶ τῶν πολιτικῶν χορηγίων σώματι
+ποιῶν παρ’ ἑαυτοῦ τὴν μεγίστην ἐνδείκνυτα[ι] σπουδὴν εἰς τὴν ὑ-
+πὲρ τῆς πατρίδος σωτηρίαν· ἵνα οὖν καὶ ὁ δῆμος φαίνηται τιμῶν
+τοὺς καλ[ο]ὺς καὶ ἀγαθοὺς ἄνδρας καὶ ἑαυτὸν εὐεργετοῦντας, δε[δό]-
+[χθ]αι τῇ βουλῇ καὶ τῷ δήμῳ ἐπῃνῆσθαι μὲν ἐπὶ τούτοις Ἀκορνίων[α]
+45Διον[υ]σίου καὶ στεφανωθῆναι αὐτὸν ἐν τοῖς Διονυσίοις χρυσ[ῷ]
+στεφάνῳ καὶ εἰκόνι χαλκῇ, στεφανοῦσθαι δὲ αὐτὸν καὶ εἰς τὸν λ[οι]-
+[π]ὸν χρ[όν]ον καθ’ ἕκαστον ἔτος ἐν τοῖς Διονυσίοις χρυσῷ στε[φά]-
+[ν]ῳ, δε[δό]σθαι δὲ αὐτῷ καὶ εἰς ἀνάστασιν ἀνδριάντος τό-
+(vac.)πον τὸν ἐπιφανέστατον τῆς ἀγορᾶς.</seg>
+          </p>
+        </div>
+        <div type="commentary" subtype="general">
+         <ab> The text is written between <date type="initial">None</date> and <date type="final">None</date>.
+           The name of the monument is <name type="source">Honorary decree for Akornion</name> or <name type="contemporary">Honorary decree for Akornion</name>. According to the text, it is It is located <location>
+            <geo>43.417781; 28.1629075</geo> <geo>https://www.geonames.org/733515/</geo>
+         </location>. <!-- произход според текста -->Now it is located here: <location type="original"><geo>23.32459608137171;42.696570730381836</geo> <geo>https://www.geonames.org/6615476/</geo></location>, in <name type="current" xml:lang="eng">National Archaeological Institute with Museum</name>.
+         The internal date in the document is <date>48-44 BC</date>.
+        We have evidence that the object was obseved in <location type="subsequent1"><geo>None; None</geo> </location>.
+        The object has been seen in <location type="subsequent2"><geo>None; None</geo> </location>  </ab>
+        </div>
+         <div type="commentary" subtype="additional">
+            <p>
+              <seg>None</seg>
+            </p>
+          </div>
+          <div type="bibliography">
+            <bibl>
+                <author>
+                  <persName>Vasiliy Latyshev, Ernst Kalinka, Georgi Mihailov, Nicolay Sharankov</persName>
+                </author>
+                <seg>https://telamon.uni-sofia.bg/bg/epi/view_ins/IGBulg_0013</seg>
+          <ref target="None">None</ref>
+            </bibl>
+          </div>
+      </body>
+    </text>
+</TEI>
+    

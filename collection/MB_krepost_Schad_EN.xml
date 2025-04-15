@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title xml:lang="en">Florentin</title>
+          <author>
+            <persName>Maria Baramova</persName>
+          </author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>DigitalSEE</publisher>
+          <date>2025-04-15</date>
+          <availability>
+            <p>The copyright statement for the source text can be fooud at <ref>Sammlung von Handschriften und alten Drucken, Österreichische Nationalbibliothek http://data.onb.ac.at/rec/AC13955779</ref> IIIF can be found here: None, if available</p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>Bulgaria</country>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <p>
+                      <seg/>
+                    </p>
+                  </support>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origPlace>
+                  <seg/>
+                </origPlace>
+                <origDate cert="high">27.06.1740</origDate>
+              </origin>
+              <!--Observed-->
+              <provenance type="observed" subtype="pleiades">
+                <date evidence="None">None</date>
+                <ref cert="high">None</ref>
+                <placeName>None</placeName>
+            </provenance>
+            <provenance type="observed" subtype="geonames">
+                <ref>None</ref>
+            </provenance>
+              <!--Found-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+              <!--Current-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+          </history>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <classDecl>
+          <taxonomy>
+            <category xml:id="periods-contemporary">
+              <catDesc>
+               late_antiquity
+              </catDesc>
+            </category>
+            <category xml:id="periods-source">
+              <catDesc>
+                None
+              </catDesc>
+            </category>
+            <category xml:id="object-type">
+              <catDesc>
+                {'fortifications': ['fortress', 'palanka'], 'settlements': ['village']}
+              </catDesc>
+            </category>
+           </taxonomy>
+        </classDecl>
+      </encodingDesc>
+      <profileDesc>
+        <textClass>
+        <keywords>
+          <list>
+            <item>Fortress, palanka, Late Antiquity, Danube, defence</item>
+          </list>
+        </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+        <change when="2025-03-12" who="Maria Baramova">encoder Maria Baramova</change>
+        <change when="2025-04-15" who="KS">Kristiyan Simeonov, encoded XML data</change>
+        <change when="2025-04-15" who="DI">Dimitar Iliev, provided full schema revision</change>
+      </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="textpart" xml:lang="fre"> <ab></ab></div> <!-- xml:lang тук е за оригиналния език -->
+        <div type="edition" xml:lang="fre">
+         <p>
+            <seg xml:lang="fre">Fol. 15 r Nous arrêtames une lieüe au dessus de Widin près d'un vieux chateau en assez bon état encore, qui toute fois en cas d’attaque, si jamais on se mit en tête de le deffendre, ne pourroit pas faire grande résistance. Le voici tel que N. 8 je l'ai dessiné. Un grand village appellé Florentin de même que le chateau y est attaché. Il étoit alors rempli de Janissaires, qui a la vite des banderoles aux couleurs de l’empereur, que j’ai toujours fait arborer sur toutes les barques, ne purent plus refrener leur rage, mais ne osant pas lui donner pleine carriére ils se contenterent de se vanger de paroles, et tout le rivage retentissoit d’une injure d’habitude, qu’ils ont toujours à la bouche et que la pudeur ne permet pas de coucher sur le papier. Depuis ce village jusques à Widin, le Danube est peu profond, car il ressemble d'un bord à l'autre à un champ couvert de roseaux ne laissant que deux canaux assez étroits libres à la navigation.</seg>
+          </p>
+        </div>
+        <div type="commentary" subtype="general">
+         <ab> The text is written between <date type="initial">300 AD</date> and <date type="final">640 AD</date>.
+           The name of the monument is <name type="source">Florentin</name> or <name type="contemporary">Florentin, fortress: Phlorentiana, Florentiana</name>. According to the text, it is It is located <location>
+            <geo>44.1341450; 22.8582403</geo> <geo>https://www.geonames.org/6460682/florentin.html</geo>
+         </location>. <!-- произход според текста -->Now it is located here: <location type="original"><geo>None;None</geo> <geo>None</geo></location>, in <name type="current" xml:lang="None">None</name>.
+         The internal date in the document is <date>27.06.1740</date>.
+        We have evidence that the object was obseved in <location type="subsequent1"><geo>None; None</geo> </location>.
+        The object has been seen in <location type="subsequent2"><geo>None; None</geo> </location>  </ab>
+        </div>
+         <div type="commentary" subtype="additional">
+            <p>
+              <seg>The fortress is relatively small. The name “Florentin” originates from the late antique term “Florenitiana,” which was referenced by Procopius in the 6th century. Researchers believe the fortress was abandoned following the settlement of the Slavs. Unfortunately, no traces of the ancient and medieval structures remain. The existing remnants date from the post-15th to 16th centuries and are thought to have been constructed no earlier than the 12th to 13th centuries.
+See: Гюзелев, В. Български средновековни градове и крепости, т.I. Варна, 1981 г., с. 94-97;
+https://www.bulgariancastles.com/s-florentin-krepost-florentiana/</seg>
+            </p>
+          </div>
+          <div type="bibliography">
+            <bibl>
+                <author>
+                  <persName>Schad, ... Le capitaine</persName>
+                </author>
+                <seg>Récit et Observations de Mons Schad, Capitaine dans Geisruck sur le Voyage qu'il a fait au Levant à la Suite de l'Ambassade impériale a. 1740, Cod. 8606 HAN MAG</seg>
+          <ref target="None">None</ref>
+            </bibl>
+          </div>
+      </body>
+    </text>
+</TEI>
+    

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title xml:lang="en">La Douane</title>
+          <author>
+            <persName>Maria Baramova</persName>
+          </author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>DigitalSEE</publisher>
+          <date>2025-04-15</date>
+          <availability>
+            <p>The copyright statement for the source text can be fooud at <ref>Sammlung von Handschriften und alten Drucken, Österreichische Nationalbibliothek http://data.onb.ac.at/rec/AC13955779</ref> IIIF can be found here: None, if available</p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>Bulgaria</country>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <p>
+                      <seg/>
+                    </p>
+                  </support>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origPlace>
+                  <seg/>
+                </origPlace>
+                <origDate cert="low">29.06.1740</origDate>
+              </origin>
+              <!--Observed-->
+              <provenance type="observed" subtype="pleiades">
+                <date evidence="None">None</date>
+                <ref cert="high">None</ref>
+                <placeName>None</placeName>
+            </provenance>
+            <provenance type="observed" subtype="geonames">
+                <ref>None</ref>
+            </provenance>
+              <!--Found-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+              <!--Current-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+          </history>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <classDecl>
+          <taxonomy>
+            <category xml:id="periods-contemporary">
+              <catDesc>
+               ottoman_period
+              </catDesc>
+            </category>
+            <category xml:id="periods-source">
+              <catDesc>
+                ottoman_period
+              </catDesc>
+            </category>
+            <category xml:id="object-type">
+              <catDesc>
+                {'settlements': ['town', 'building'], 'economy': ['customs']}
+              </catDesc>
+            </category>
+           </taxonomy>
+        </classDecl>
+      </encodingDesc>
+      <profileDesc>
+        <textClass>
+        <keywords>
+          <list>
+            <item>митница, предградие, Видин</item>
+          </list>
+        </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+        <change when="2025-03-12" who="Maria Baramova">encoder Maria Baramova</change>
+        <change when="2025-04-15" who="KS">Kristiyan Simeonov, encoded XML data</change>
+        <change when="2025-04-15" who="DI">Dimitar Iliev, provided full schema revision</change>
+      </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="textpart" xml:lang="fre"> <ab></ab></div>
+        <div type="edition" xml:lang="fre">
+         <p>
+            <seg xml:lang="fre">Au dessous de la Ville est un grand fauxbourg, dont les maisons touchent au pied du glaces. La Douane en est l’Edifice le plus remarquable, le reste est de bois et de boüe, comme dans la Ville, où je n’ai vu que deux mosquées, dont le Dôme couvert de plomb paroissoit par dessus la muraille.</seg>
+          </p>
+        </div>
+        <div type="commentary" subtype="general">
+         <ab> The text is written between <date type="initial">None</date> and <date type="final">None</date>.
+           The name of the monument is <name type="source">La Douane</name> or <name type="contemporary">The Old Customs House, Vidin</name>. According to the text, it is It is located <location>
+            <geo>43.983424; 22.877155</geo> <geo>None</geo>
+         </location>.Now it is located here: <location type="original"><geo>None;None</geo> <geo>None</geo></location>, in <name type="current" xml:lang="None">None</name>.
+         The internal date in the document is <date>29.06.1740</date>.
+        We have evidence that the object was obseved in <location type="subsequent1"><geo>None; None</geo> </location>.
+        The object has been seen in <location type="subsequent2"><geo>None; None</geo> </location>  </ab>
+        </div>
+         <div type="commentary" subtype="additional">
+            <p>
+              <seg>The building of the old customs in Vidin was located on ul. "Danavska" near the Danube port.</seg>
+            </p>
+          </div>
+          <div type="bibliography">
+            <bibl>
+                <author>
+                  <persName>Schad, ... Le capitaine</persName>
+                </author>
+                <seg>Récit et Observations de Mons Schad, Capitaine dans Geisruck sur le Voyage qu'il a fait au Levant à la Suite de l'Ambassade impériale a. 1740, Cod. 8606 HAN MAG</seg>
+          <ref target="None">None</ref>
+            </bibl>
+          </div>
+      </body>
+    </text>
+</TEI>
+    

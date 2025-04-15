@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title xml:lang="en">Widdin</title>
+          <author>
+            <persName>Maria Baramova</persName>
+          </author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>DigitalSEE</publisher>
+          <date>2025-04-15</date>
+          <availability>
+            <p>The copyright statement for the source text can be fooud at <ref>Sammlung von Handschriften und alten Drucken, Österreichische Nationalbibliothek http://data.onb.ac.at/rec/AC13955779</ref> IIIF can be found here: None, if available</p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>Bulgaria</country>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <p>
+                      <seg/>
+                    </p>
+                  </support>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin>
+                <origPlace>
+                  <seg/>
+                </origPlace>
+                <origDate cert="high">29.06.1740</origDate>
+              </origin>
+              <!--Observed-->
+              <provenance type="observed" subtype="pleiades">
+                <date evidence="None">None</date>
+                <ref cert="high">None</ref>
+                <placeName>None</placeName>
+            </provenance>
+            <provenance type="observed" subtype="geonames">
+                <ref>None</ref>
+            </provenance>
+              <!--Found-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+              <!--Current-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+          </history>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <classDecl>
+          <taxonomy>
+            <category xml:id="periods-contemporary">
+              <catDesc>
+               ottoman_period
+              </catDesc>
+            </category>
+            <category xml:id="periods-source">
+              <catDesc>
+                ottoman_period
+              </catDesc>
+            </category>
+            <category xml:id="object-type">
+              <catDesc>
+                {'fortifications': ['fortress'], 'settlements': ['town'], 'linear': ['stone_wall', 'gate']}
+              </catDesc>
+            </category>
+           </taxonomy>
+        </classDecl>
+      </encodingDesc>
+      <profileDesc>
+        <textClass>
+        <keywords>
+          <list>
+            <item>Vidin, fortress, plan, fortress walls</item>
+          </list>
+        </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+        <change when="2025-03-12" who="Maria Baramova">encoder Maria Baramova</change>
+        <change when="2025-04-15" who="KS">Kristiyan Simeonov, encoded XML data</change>
+        <change when="2025-04-15" who="DI">Dimitar Iliev, provided full schema revision</change>
+      </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="textpart" xml:lang="fre"> <ab></ab></div>
+        <div type="edition" xml:lang="fre">
+         <p>
+            <seg xml:lang="fre">Le Pacha nous fit partir encore le meme jour. Nous quittames le rivage vers le soir, et passames tout le long de la Ville, ou jeus la commodité de faire le plan de ce côté-là, en dessinant tous les angles, quoique sans dimensions justes et cela joint à ce que feu le Colonnel Weiss a observé autrefois de cette place ne laissera pas de faire un plan à peu près complet pour servir en cas de besoin. Les ouvrages de for tification du côté de la Campagne, sont fort bas, êtant sans autres dehors, qu'un simple chemin couvert. J’en ai regardé deux poligones en dedans en sortant de la ville, et dehors par dessus les barques, en feignant de faire autre chose car les Janissaires qui m’avoient vû si souvent le craion à la main pendant le voyage avoient deja dit une fois entre eux qu'ils croioient que ce y aour étoit un espion qui dessinoit tout leur païs. Bon, repondit un autre, il ne dessine que les vieux chateaux, et il n’a qu’à le faire tant qu il voudra. Les autres repliquérent d’abord tu ne l'entends pas sous ce pretexte il peut dessiner nos Forteresses, n'entend-tu pas comme il s’enquiert de tous leurs noms et d’abord qu’il le sait, il l’écrit.  ...qui ne sachant juger des choses, que par leurs lumiéres n'entendant pas raillerie sur cet article Au reste ces Poligones, auxquels je crois tous les autres conformes, consistoient en deux Bastions petits et etroits, avec une courtine fort courte Ils sont sans cordon, à sa place un berme de quelques pieds regne tout au tour, et puis le parapet percé comme celui de Nissa, d'une quantité d’embrasurer l'une joignant l’autre, n’a que des petits merlons de branches entrelassées remplis de terre. Il faut qu’ils l’ayent fait depuis peu, car il est fort bien conservé quon les habitans y montent et s’y assevient comme il leur plait. Sur les flancs des Bastions qui sont presque perpendiculaires, a la courtine il n’y a place que pour un seul canon. aussi n'y a-t-il qu'une seule embrasure. Le fossé est fort large devant les courtines, et il se recourbe en angle sur les lignes capitales. Là où je l’ai vû il etoit plein d’eau mais je ne sais, si elle y reste toujours, ou si celle y entre seulement, quand le Danube est si haut, comme il le toit alors. Le chemin couvert est assez large, à une banquette il est bien pallisadé, et flanqué comme celui de Nissa de crochets dans le glacis, mais à la distance d’un poligone à l’autre. Son parapet est revetû, et les palisades bien grosse et fort egales sont adossées contre cette muraille si près l'une de l’autre, qu’a peine il pourroit passer un fusil. Le Hacis est court, mais assez bien applani. La contrescarque est revetue de moiton, aussi bien que le corps de la place, dont le talû est beaucoup plus grand que les nôtres. Le rempart du côté de la place est revetu de même d’une muraillé perpendiculaire avec de hautes niches en arcades de trois pieds de fond environ comme l’on en voit à Nissa. En general la maçonnerie est partout d’un moiton blanc et bien executée, et je n'ai vu nulle part des bosses. Il n'y a ni ravelins ni autres dehors, et les Portes sont sans ponts-levis et toutes decouvertes. Quoique les ouvrages comme j’ai dit plus haut, soient fort bas, ils couvrent pourtant si bien les maisons, qui ne sont quasi toutes que de bois à un étage, et platrées de boïe, comme dans le plus miserable village de Hongrie, qu’on n’en voit gueres, que quelques cheminées, et les minarets des Mosguées. Le Vieux chateau est près du Danube vers la porte de Nissa. Ses hautes murailles a merlons sont fanguées aux angels de tours guarrées, couvertes et rempli de canon. Il y en a deux aux courtines, dont celle qui regarde l’Orient en forme de Donjon, est plus haute et plus grosse que toutes les autres. Une espéce de faussebraie murée et crenelée sans être flanquée à l’ancienne manière regne tour au tour, et puis un fossé plus profond que large, dont la contrescarpe est revetüe. Il y a quelques pieds d’eau bourbeuse et croupissante. Tout le côté de l'eau n’est formé que d'une simple muraille de la hauteur des autres ouvrages à grand talu, flanquée de la maniere, qu’il se voit par le Plan cy-joint. Au dessus du cordon regne une muraille mince, perpendiculaire et percée de creneaux, comme nos anciennes murailles de ville Elle est couverte vers l’eau d’un glacis, après un passage etroit commence son parapet revetu au même niveau du pied de la muraille, et il est quasi par tout parallelé à enceinte de la place. Il est pallisadé comme le chemin couvert du coté de la campagne mais le terre, qui le devroit couvrir, est presque par tout emportée du courant de l'eau, de sorte que la muraille du parapet devant les pallisades paroit en beaucoup d’endroits toute nue. Il y a vers la porte de Nissa un petit bastion detaché de maçonnerie, qui rare beau, et un autre terre pleine comme ceux vers la campagne, ou est la porte sur la quelle j’ai fait ma visite au Pacha. Le premier paroit tout neuf et fait depuis cette derniére guerre. On connoitra mieux tous ces ouvrages par leur Plan et ses profils. Au dessous de la Ville est un grand fauxbourg, dont les maisons touchent au pied du glaces. La Douane en est l’Edifice le plus remarquable, le reste est de bois et de boüe, comme dans la Ville, où je n’ai vu que deux mosquées, dont le Dôme couvert de plomb paroissoit par dessus la muraille. Lorsque j’y suis passé tout ce fauxbourg étoit dans l’eau, toutefois les maisons à deux étages etoient habitees et remplies de monde. Derriére ce fauxbourg l’inondation fait un grand ein bien avant dans la pleine, de la largeur du courant du Danube même, et omme l’eau entre aussi par un canal fort étroit du côté de la porte de Nissa lle tourne tout au tour de la place, ce qui n’arrive pourtant pas toujours, comme natelots chrétiens et même les Janissaires m'ont assuré, mais seulement le Danube déborde. Par le moyen d’une écluse ils pourroient facilement in onder toute cette campagne, quand ils voudroient, où il ne paroit pas la moindre hauteur jusques au pied des montagnes. Ce qui rendroit le siège de la place presque impracticable Au reste Widin est l’ancienne Vendonis des Romains dans la Mysie supe rieure. Aujourd'hui elle est la capitale de la Belgarie, Province, à qui les Belgariens ont donné le nom. Ces peuples barbares pressés par la faim et la disette de toutes choses chez eux, sortirent de la sarmatie Asiatique et occupérent d’abord les embouchures du Danube, sur le bord de la mer noire, dans l'intention de conquerir une terre dont ils pourroient tirer la nourriture ou y ensevelir leurs cadavres affamés. Après le succès heureux de cette première entreprise, ils inondirent par leur grand nombre et la negligence des Empereurs d’Orient la Thrace et l’Illyrie, où ils subjugerent bientôt les deux Mysies et imposerent le nom de leur nation au païs dont ils restèrent les maitres. …. On pourroit faire une excellente Forteresse de Widin, en retre cissant son enceinte et mettant l'inondation de la campagne en bon etat Quoique la Danube ne soit pas toujours si large, comme il etoit du tems, que j'y suis passé, il faudroit pourtant des ponts d'une longueur extrême pour d'assieger, vû l'inondation qui pourroit survenir. Il la faudroit reduire à force d'un grand feu, car l'incendie des maisons mettroit bientôt la garnison au desespoir, n'y ayant point de souterrains pour s'en garantir. Mais il ne faudroit point trainer l’affaire en longueur et employer une semaine à ce qu'on pourroit executer en un jour, puisque le moindre debordement obligeroit peut-etre a lever le siége. Qui seroit maitre de Widin, ne couvriroit pas seulement la servie, et conserveroit une grande partie de la Belgarie; mais seroit encore à cheval sur la Valachie et Moldavie, avec une communication fort aisée et courte de la Transilvanie. </seg>
+          </p>
+        </div>
+        <div type="commentary" subtype="general">
+         <ab> The text is written between <date type="initial">None</date> and <date type="final">None</date>.
+           The name of the monument is <name type="source">Widdin</name> or <name type="contemporary">Видин, Vidin, ancient Bononia</name>. According to the text, it is It is located <location>
+            <geo>43.99327; 22.88670</geo> <geo>https://www.geonames.org/maps/google_43.9931_22.8867.html</geo>
+         </location>.Now it is located here: <location type="original"><geo>None;None</geo> <geo>None</geo></location>, in <name type="current" xml:lang="None">None</name>.
+         The internal date in the document is <date>29.06.1740</date>.
+        We have evidence that the object was obseved in <location type="subsequent1"><geo>None; None</geo> </location>.
+        The object has been seen in <location type="subsequent2"><geo>None; None</geo> </location>  </ab>
+        </div>
+         <div type="commentary" subtype="additional">
+            <p>
+              <seg>In 1740, during his journey along the Danube, Captain Shad (as part of Count Ulefeld's Grand Embassy to Constantinople) made a detailed description and sketch plan of the fortifications in Vidin, as well as of the adjacent settlement, mentioning two mosques he passed by. He notes that Vidin is the Vendonis of the ancients, but without giving any information about ancient monuments in the city. He correctly places it in Upper Mysia.</seg>
+            </p>
+          </div>
+          <div type="bibliography">
+            <bibl>
+                <author>
+                  <persName>Schad, ... Le capitaine</persName>
+                </author>
+                <seg>Récit et Observations de Mons Schad, Capitaine dans Geisruck sur le Voyage qu'il a fait au Levant à la Suite de l'Ambassade impériale a. 1740, Cod. 8606 HAN MAG</seg>
+          <ref target="None">None</ref>
+            </bibl>
+          </div>
+      </body>
+    </text>
+</TEI>
+    

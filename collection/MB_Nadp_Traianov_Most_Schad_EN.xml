@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title xml:lang="en">Trajan's bridge - inscriptio</title>
+          <author>
+            <persName>Maria Baramova</persName>
+          </author>
+        </titleStmt>
+        <publicationStmt>
+          <publisher>DigitalSEE</publisher>
+          <date>2025-04-15</date>
+          <availability>
+            <p>The copyright statement for the source text can be found at <ref>Sammlung von Handschriften und alten Drucken, Österreichische Nationalbibliothek http://data.onb.ac.at/rec/AC13955779</ref> IIIF can be found here: None, if available</p>
+          </availability>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>Bulgaria</country>
+            </msIdentifier>
+            <physDesc>
+              <objectDesc>
+                <supportDesc>
+                  <support>
+                    <p>
+                      <seg>Schad describes the ruins of Trajan's Bridge with a Roman inscription and the difficulties of sketching what remains. </seg>
+                    </p>
+                  </support>
+                </supportDesc>
+              </objectDesc>
+            </physDesc>
+            <history>
+              <origin> 
+                <origPlace>
+                  <seg/>
+                </origPlace>
+                <origDate cert="high">26.06.1740</origDate>
+              </origin>
+              <!--Observed-->
+              <provenance type="observed" subtype="pleiades">
+                <date evidence="None">None</date>
+                <ref cert="high">None</ref>
+                <placeName>None</placeName>
+            </provenance>
+            <provenance type="observed" subtype="geonames">
+                <ref>None</ref>
+            </provenance>
+              <!--Found-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+              <!--Current-->
+              <provenance type="found" subtype="geonames">
+                <date evidence="None">None</date>
+                <ref>None</ref>
+                <placeName>None</placeName>
+            </provenance>
+          </history>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <classDecl>
+          <taxonomy>
+            <category xml:id="periods-contemporary">
+              <catDesc>
+               roman_age
+              </catDesc>
+            </category>
+            <category xml:id="periods-source">
+              <catDesc>
+                None
+              </catDesc>
+            </category>
+            <category xml:id="object-type">
+              <catDesc>
+                {'inscriptions': ['dedicatory_inscription']}
+              </catDesc>
+            </category>
+           </taxonomy>
+        </classDecl>
+      </encodingDesc>
+      <profileDesc>
+        <textClass>
+        <keywords>
+          <list>
+            <item>Inscription, roman age, Counterfeit, Danube, emperor Trajan</item>
+          </list>
+        </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+        <change when="2025-03-12" who="Maria Baramova">encoder Maria Baramova</change>
+        <change when="2025-04-15" who="KS">Kristiyan Simeonov, encoded XML data</change>
+        <change when="2025-04-15" who="DI">Dimitar Iliev, provided full schema revision</change>
+      </revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="textpart" xml:lang="eng"> <ab></ab></div> 
+        <div type="edition" xml:lang="fre">
+         <p>
+            <seg xml:lang="fre">Récit et Observations de Mons Schad, Capitaine dans Geisruck sur le Voyage qu'il a fait au Levant à la Suite de l'Ambassade impériale a. 1740, Cod. 8606 HAN MAG</seg>
+          </p>
+        </div>
+        <div type="commentary" subtype="general">
+         <ab> The text is written between <date type="initial">None</date> and <date type="final">None</date>.
+           The name of the monument is <name type="source">pont de Trajan - l'inscription</name> or <name type="contemporary">Trajan's bridge - inscription</name>. According to the text, it is It is located <location>
+            <geo>44.6237; 22.6670</geo> <geo>https://pleiades.stoa.org/places/207629/osm-location-of-trajans-bridge/?searchterm=Trajan%27s%20Bridge*</geo>
+         </location>. Now it is located here: <location type="original"><geo>-</geo> <geo>-</geo></location>, in <name type="current" xml:lang="eng">-</name>.
+         The internal date in the document is <date>26.06.1740</date>.
+        We have evidence that the object was obseved in <location type="subsequent1"><geo>None; None</geo> </location>.
+        The object has been seen in <location type="subsequent2"><geo>None; None</geo> </location>  </ab>
+        </div>
+         <div type="commentary" subtype="additional">
+            <p>
+              <seg>None</seg>
+            </p>
+          </div>
+          <div type="bibliography">
+            <bibl>
+                <author>
+                  <persName>Schad, ... Le capitaine</persName>
+                </author>
+                <seg>Sammlung von Handschriften und alten Drucken, Österreichische Nationalbibliothek http://data.onb.ac.at/rec/AC13955779</seg>
+          <ref target="None">None</ref>
+            </bibl>
+          </div>
+      </body>
+    </text>
+</TEI>
+    
