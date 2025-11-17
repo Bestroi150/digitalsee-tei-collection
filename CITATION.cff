@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this collection in your research, please cite it as follows:"
+authors:
+  - family-names: Valchev 
+    given-names:  Ivan
+  - family-names: Iliev
+    given-names:  Dimitar
+  - family-names: Simeonov
+    given-names:  Kristiyan
+  - family-names: Baramova  
+    given-names:  Maria
+title: DigitalSEE TEI Collection
+version: 1.0.0
+doi: "DOI_HERE" 
+date-released: 2025-01-23
+url: "https://github.com/Bestroi150/digitalsee-tei-collection"
+license: "CC BY 4.0"
+repository-code: "https://github.com/Bestroi150/digitalsee-tei-collection"
